@@ -16,7 +16,7 @@ public class FTPLogSimulator {
             if (args.length == 5) {
                 ftpLogSimulator(Integer.parseInt(args[0]), args[1], args[2], Integer.parseInt(args[3]), Integer.parseInt(args[4]));
             } else if (args.length == 7) {
-                ftpLogSimulator(Integer.parseInt(args[0]), args[1], args[2], Integer.parseInt(args[3]), Integer.parseInt(args[4]),args[1],args[2]);
+                ftpLogSimulator(Integer.parseInt(args[0]), args[1], args[2], Integer.parseInt(args[3]), Integer.parseInt(args[4]),args[5],args[6]);
             }
             else {
                 throw new IllegalArgumentException("Arguments not valid\n");
